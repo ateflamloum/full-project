@@ -1,5 +1,28 @@
 .App {
   text-align: center;
+  height: 2000px;
+  background-color: #CFCBCA;
+}
+
+.navbar1 {
+  background-color: #948eea;
+  position: fixed !important;
+  top: 0%;
+  width: 100%;
+}
+
+.navbar-custom {
+  background-color: #f8f9fa;
+  /* Example background color */
+}
+
+.dd {
+  justify-self: end;
+}
+
+.logo-img {
+  margin-right: 10px;
+  /* Adjust the margin as needed */
 }
 
 .App-logo {
@@ -14,7 +37,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #627aa8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +55,57 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: -10px;
+  left: 0;
+  background-color: #948eea;
+  padding-top: 20px;
+  margin-top: 80px;
+}
+
+.sidebar h2 {
+  color: white;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  color: rgb(46, 5, 6);
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  background-color: #020202;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 16px;
+  margin-top: 70px;
+  background-color: #CFCBCA;
+
 }
